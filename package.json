@@ -1,0 +1,27 @@
+{
+  "name": "codex-sentry-mcp",
+  "version": "1.0.0",
+  "description": "An MCP Server connecting OpenAI Codex with Sentry for automated bug analysis and fixing",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1",
+    "@sentry/node": "^8.0.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "keywords": [
+    "mcp",
+    "sentry",
+    "codex",
+    "openai",
+    "mcp-server",
+    "bug-fix"
+  ],
+  "author": "",
+  "license": "MIT"
+}
